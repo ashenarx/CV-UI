@@ -1,0 +1,125 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Font', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 24px;
+    background: #181818;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    margin: 40px 20px;
+}
+
+.profile {
+    top: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    font-family: 'Font', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 12px 0;
+    letter-spacing: 0.5px;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.contact p a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.section {
+    background: #282828;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.section h2 {
+    font-family: 'Font', sans-serif;
+    border-bottom: 2px solid #1DB954;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+.item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.item h4 {
+    font-size: 16px;
+    color: #b3b3b3;
+    margin: 5px 0;
+}
+
+.item p {
+    font-size: 14px;
+    color: #b3b3b3;
+    margin-left: 20px;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: 'Font', sans-serif;
+    background-color: #1DB954;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #1aa34a;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    background-color: #074f20;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:focus {
+    outline: 3px solid rgba(29, 185, 84, 0.5);
+}
+
+
+.hidden {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url('Font.ttf') format('truetype');
+}
